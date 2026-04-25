@@ -418,6 +418,7 @@ cat urllist.txt | tr -d ' ' | tr -s '.'
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
+<img width="736" height="355" alt="image" src="https://github.com/user-attachments/assets/3472e77c-e08f-4063-959f-3fc1c67a4541" />
 
 
 mkdir backupdir
@@ -428,10 +429,13 @@ cd backupdir
  
 tar -tvf backup.tar
 ## OUTPUT
+<img width="797" height="265" alt="image" src="https://github.com/user-attachments/assets/5c04f5b2-9fd3-4d0e-8f24-28815dc3be3b" />
+
 
 
 tar -xvf backup.tar
 ## OUTPUT
+<img width="778" height="283" alt="image" src="https://github.com/user-attachments/assets/6c0433ab-20d4-4a43-b7cc-52aa0f123250" />
 
 gzip backup.tar
 
